@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playball&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+     
+
+}
+.container{
+  background-color: #A9A9A9;
+  height: auto ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+   
+  }
+.header{
+  background-color: #FF80FF;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  margin: 0.5%;
+  }
+.center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.meniu{
+    display: flex;
+    background-color: #FF80FF;
+    width: 66.66%;
+    height: 100%;
+    font-family: 'Oswald';
+    font-size: 150%;
+  }
+ .search{
+    background-color: #FF80FF;
+    width: 33.33%;
+    height: 100%;
+    text-align: center;
+    /* padding-top: 1.5rem; */
+ }  
+  .first_ul{
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  } 
+  /* .second_ul{
+  display: flex; 
+  flex-grow: 1;
+  list-style: none;
+  justify-content: space-around;
+  }    */
+  
+.first_ul li{
+  display: inline-block;
+  /* margin: 0.4rem; */
+} 
+ .first_ul a{
+  text-decoration: none;
+  color: black;
+}
+  .main{
+  display: flex;
+  height: auto;
+  width: auto;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+.side{
+display: flex;
+flex-direction: column;
+/* flex-wrap: wrap; */
+flex-flow: row wrap;
+height: 100% ;
+width: 85%;
+background-color: #FFFFFF;
+margin-right: 0.5%;
+padding: 2%;
+}
+.aside{
+width: 15%;
+height: 100%;
+background-color: #FF80FF;
+padding: 2%;
+font-size: 1.25rem;
+
+}
+.text_h1{
+  font-family: 'Playball';
+  font-size: 2.5rem;
+}
+.text{
+  font-size: 1.25rem;
+  text-align: justify; 
+}
+.footer{
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 9%;
+  /* display: flex; */
+  /* margin: 0.5%; */
+  /* padding-left: 2%; */
+  padding:1%;
+  margin: 0.5%;
+}
+.go{
+  display: inline-block;
+  background-color: black;
+  color:antiquewhite;
+  height: 2rem;
+  width: 3rem;
+}
+.searchbox{
+  height: 2rem;
+  width: 15rem;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
